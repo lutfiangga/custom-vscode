@@ -1,0 +1,86 @@
+{
+  /** ------------ Workbench Settings ------------ **/
+  "workbench.colorCustomizations": {
+    "inlineparameters.annotationBackground": "#282A3600",
+    "inlineparameters.annotationForeground": "#7b82af",
+    "scrollbar.shadow": "#24292e00"
+  },
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.editorLargeFileConfirmation": 10024,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.tree.indent": 16,
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.editor.empty.hint": "hidden",
+  "breadcrumbs.symbolPath": "off",
+  "breadcrumbs.filePath": "on",
+
+  /** ------------ Editor Settings ------------ **/
+  "editor.fontFamily": "'Fira Code Retina', 'Hack Nerd Font', Monospace",
+  "editor.fontSize": 14,
+  "editor.fontWeight": 450,
+  "editor.lineHeight": 26,
+  "editor.lineNumbers": "on",
+  "editor.folding": true,
+  "editor.glyphMargin": true,
+  "editor.guides.indentation": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.cursorStyle": "line",
+  "editor.wordWrap": "on",
+  "editor.stickyScroll.enabled": true,
+
+  /** ------------ Terminal Configurations ------------ **/
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontFamily": "'MesloLGS NF','FiraCode Nerd Font Mono', 'Hack Nerd Font', Monospace",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.enableMultiLinePasteWarning": "always",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+
+  /** ------------ Additional Configurations ------------ **/
+  "vscode_custom_css.imports": [
+  "file:///F:/vscode-theme/custom.css",
+  "file:///F:/vscode-theme/custom.js",
+]
+,
+  "files.autoSave": "afterDelay",
+  "workbench.settings.applyToAllProfiles": [
+  ],
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.minimap.autohide": true,
+  "breadcrumbs.enabled": false,
+  "workbench.editor.autoLockGroups": {
+    "pdf.preview": true,
+    "jupyter-notebook": true,
+    "imagePreview.previewEditor": true,
+    "gitlens.rebase": true,
+    "mainThreadWebview-markdown.preview": true,
+    "workbench.input.interactive": true,
+    "default": true,
+    "workbench.editor.chatSession": true,
+    "workbench.editorinputs.searchEditorInput": true,
+    "workbench.editors.gettingStartedInput": true
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "files.associations": {
+    "*.rmd": "markdown"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.location": "hidden"
+}

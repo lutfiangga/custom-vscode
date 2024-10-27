@@ -1,5 +1,3 @@
-![screenshot.png](./images/screenshot.png)
-
 # VSCode Customizations
 
 This guide will help you customize the appearance of Visual Studio Code using the **Custom CSS and JS Loader** extension.
